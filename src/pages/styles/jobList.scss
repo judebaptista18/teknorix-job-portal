@@ -1,0 +1,91 @@
+$card-bg-color: #f4f4f4;
+$primary-color: #6297e5;
+
+.filter-card{
+    margin: 24px 0 0 0;
+    background-color: $card-bg-color !important;
+    padding: 24px;
+    width: 100% !important;
+}
+
+.search-input{
+    width: 100% !important;
+}
+
+.MuiButton-outlinedPrimary{
+    color: $primary-color !important;
+    border-radius: 30px !important;
+    font-weight: 550 !important;
+}
+
+.filter-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 24px 0 !important;
+}
+
+.chip-item{
+    margin-right: 12px;
+}
+
+.select-form-control{
+    padding: 0 6px !important;
+}
+
+.job-list-container{
+    margin-top: 24px !important;
+    padding: 24px !important;
+    width: 100%;
+}
+
+.job-list-container h2{
+    margin-bottom: 10px
+}
+
+.job-summary-details{
+    display: flex;
+    flex-direction: row;
+    line-height: 14px;
+    color: #00000091;
+    font-size: 14px;
+}
+
+.job-summary-item{
+    display: flex;
+    align-items: center;
+    padding-right: 12px;
+}
+
+.job-title{
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.job-summary-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.detail-icon{
+    padding: 4px;
+}
+
+.job-type{
+    font-weight: bolder;
+    padding-left: 12px;
+    background-color: #8080804f;
+}
+
+.apply-view-btn-container{
+    margin-left: auto !important;
+}
+
+a{
+    text-decoration: none;
+}
+
+.no-jobs{
+    text-align: center;
+}
